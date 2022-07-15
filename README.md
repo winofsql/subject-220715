@@ -26,3 +26,7 @@ document.body.innerText = "<input><input>"
 ```
 console.dir( document )
 ```
+
+```
+document.body.appendChild( a )
+```

@@ -73,3 +73,10 @@ $("input").get(0).value = "鈴木次郎"
 $("input").get(1).value = "田中一郎"
 $("input").get(2).value = "織田信長"
 ```
+
+### class の追加
+```
+$("input").addClass("btn btn-primary")
+$("input").addClass("entry")
+```
+

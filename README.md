@@ -30,3 +30,19 @@ console.dir( document )
 ```
 document.body.appendChild( a )
 ```
+
+### jQuery の読み込み
+```
+var b = document.createElement("script")
+document.head.appendChild( b )
+b.src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+```
+
+### jQuery
+```
+$("body").html()
+$("body").text()
+$("body").text("<input>")
+$("body").html("<input>")
+
+```

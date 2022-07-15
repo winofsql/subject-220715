@@ -8,3 +8,7 @@ location.href = "about:blank"
 ```
 document.body
 ```
+
+```
+document.body.innerHTML = "<input>"
+```

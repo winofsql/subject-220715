@@ -19,3 +19,9 @@ target.replace( new RegExp("X","g"),"y")
 target.replace( a,"数字")
 '@@@数字   数字XXX数字'
 ```
+
+### WEBページ内の URL 一覧を配列に入れる
+```
+var a = document.body.innerHTML
+var b = a.match(new RegExp('href=".+?"',"g"))
+```

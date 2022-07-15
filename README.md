@@ -89,3 +89,12 @@ $("input").css("background-color","pink")
 ```
 $("<input type='button' value='別のボタン' id='inp'>").appendTo( $("body") )
 ```
+
+### 複数オブジェクトのループ処理
+```
+$("input").each( function( index ){
+   console.log(index)
+   console.log(this)
+   console.log(  $(this).val()  )
+} )
+```

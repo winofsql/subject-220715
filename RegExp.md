@@ -30,3 +30,11 @@ var b = a.match(new RegExp('href=".+?"',"g"))
 ```
 var b = a.match(new RegExp('"http.+?"',"g"))
 ```
+
+### 正規表現の部分文字を使った置き換え
+```
+aa = []
+for( i = 0; i < b.length; i++ ) {
+    aa.push( b[i].replace( new RegExp('href="(.+?)"', "g"), "$1" ) )
+}
+```

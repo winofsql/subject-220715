@@ -51,3 +51,6 @@ $("body").html("<input>")
 var c = $("<input>")
 c.appendTo( $("body") )
 ```
+```
+$("<input>").appendTo( $("body") )
+```

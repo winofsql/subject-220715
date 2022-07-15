@@ -44,5 +44,10 @@ $("body").html()
 $("body").text()
 $("body").text("<input>")
 $("body").html("<input>")
+```
 
+### jQuery で新しいコントロール( 要素 ) を追加( この場合、body )
+```
+var c = $("<input>")
+c.appendTo( $("body") )
 ```

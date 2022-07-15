@@ -8,3 +8,9 @@ target = "@@@123   456XXX789"
 target.match(a)
 ```
 ![image](https://user-images.githubusercontent.com/1501327/179153813-6c1bc4be-cb83-48ef-a22e-463cb2b6472e.png)
+
+### String.replace は必ず正規表現( g ) でやりましょう
+```
+target.replace( new RegExp("X","g"),"y")
+```
+▲ XXX を yyy に変える

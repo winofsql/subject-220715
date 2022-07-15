@@ -25,3 +25,8 @@ target.replace( a,"数字")
 var a = document.body.innerHTML
 var b = a.match(new RegExp('href=".+?"',"g"))
 ```
+
+### URL の総取り
+```
+var b = a.match(new RegExp('"http.+?"',"g"))
+```

@@ -4,3 +4,7 @@
 ```
 location.href = "about:blank"
 ```
+
+```
+document.body
+```

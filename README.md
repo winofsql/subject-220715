@@ -80,3 +80,7 @@ $("input").addClass("btn btn-primary")
 $("input").addClass("entry")
 ```
 
+### インラインスタイルの変更
+```
+$("input").css("background-color","pink")
+```

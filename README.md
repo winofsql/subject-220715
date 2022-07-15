@@ -22,3 +22,7 @@ document.getElementsByTagName("input")[0].value
 ```
 document.body.innerText = "<input><input>"
 ```
+
+```
+console.dir( document )
+```

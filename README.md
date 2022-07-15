@@ -84,3 +84,8 @@ $("input").addClass("entry")
 ```
 $("input").css("background-color","pink")
 ```
+
+### 文字列のままのコントロールを作成して使用する
+```
+$("<input type='button' value='別のボタン' id='inp'>").appendTo( $("body") )
+```

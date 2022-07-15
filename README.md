@@ -54,3 +54,8 @@ c.appendTo( $("body") )
 ```
 $("<input>").appendTo( $("body") )
 ```
+
+### 対象全てに同じメソッドを実行する
+```
+$("input").val("山田太郎")
+```

@@ -18,3 +18,7 @@ document.body.innerHTML = "<input>"
 ```
 document.getElementsByTagName("input")[0].value
 ```
+
+```
+document.body.innerText = "<input><input>"
+```

@@ -59,3 +59,10 @@ $("<input>").appendTo( $("body") )
 ```
 $("input").val("山田太郎")
 ```
+
+### 個別に属性を変更
+```
+$("input").eq(0).prop("type","button")
+$("input").eq(1).prop("type","radio")
+$("input").eq(2).prop("type","checkbox")
+```

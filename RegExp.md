@@ -14,3 +14,8 @@ target.match(a)
 target.replace( new RegExp("X","g"),"y")
 ```
 ▲ XXX を yyy に変える
+
+```
+target.replace( a,"数字")
+'@@@数字   数字XXX数字'
+```

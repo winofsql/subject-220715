@@ -66,3 +66,10 @@ $("input").eq(0).prop("type","button")
 $("input").eq(1).prop("type","radio")
 $("input").eq(2).prop("type","checkbox")
 ```
+
+### DOM への参照の取得
+```
+$("input").get(0).value = "鈴木次郎"
+$("input").get(1).value = "田中一郎"
+$("input").get(2).value = "織田信長"
+```
